@@ -32,7 +32,7 @@ def configurar_matriz(vivos : dict):
 
 def escribir_matriz_en_archivo(m : pd.DataFrame, vivos : dict):
     lista_vivos = [k for k in vivos if vivos[k] == True]
-    with open("resultados.txt", "a") as f:
+    with open("resultados/resultados.txt", "a") as f:
         f.write(m.to_string(columns=lista_vivos))
 
 def crear_guerreros(n: int):
@@ -78,7 +78,7 @@ def calcular_siguiente_atacado(atacante, probabilidades, vivos):
     return posibles_grupos_atacados[idx]
 
 def escribir_mensaje_estado_actual(g : list, a: list):
-    with open("resultados.txt", "a") as f:
+    with open("resultados/resultados.txt", "a") as f:
         f.write("\n\nNumber of warriors for each group")
         for i in range(len(g)):
             if i+1 not in a:
@@ -87,27 +87,27 @@ def escribir_mensaje_estado_actual(g : list, a: list):
     
 
 def escribir_mensaje_de_ataque(atacante, atacado):
-    with open("resultados.txt", "a") as f:
+    with open("resultados/resultados.txt", "a") as f:
         f.write(f"\nGroup {atacante} attacked Group {atacado}!\n")
 
 def escribir_mensaje_aniquilacion(grupo):
-    with open("resultados.txt", "a") as f:
+    with open("resultados/resultados.txt", "a") as f:
         f.write(f"\nGroup {grupo} is annihilated!")
         f.write("\n\n==================================\n")
 
 def escribir_mensaje_reconfiguracion():
-    with open("resultados.txt", "a") as f:
+    with open("resultados/resultados.txt", "a") as f:
         f.write("\nReconfiguring stochastic matrix\n\n")
 
 def escribir_mensaje_ganador(ganador):
-    with open("resultados.txt", "a") as f:
+    with open("resultados/resultados.txt", "a") as f:
         f.write("\n\n==================================\n")
         f.write(f"Group {ganador} is the winner!")
         f.write("\n==================================\n")
 
 
 def limpiar_archivo_resultados():
-    open('resultados.txt', 'w').close()
+    open('resultados/resultados.txt', 'w').close()
 
 def agregar_grupo_a_lista_de_aniquilados(grupos : list, aniquilados : list):
     # Encuentra el grupo que tiene 0 guerreros y que todavía no esté
@@ -132,8 +132,7 @@ if __name__ == "__main__":
         elif sys.argv[1] == "-r":
             limpiar_archivo_resultados()
             # Generar valores aleatorios
-            n_grupos = np.random.randint(2, 10)
-            # n_grupos = 3
+            n_grupos = int(input("# of groups: "))
             grupos_vivos = {i+1:True for i in range(n_grupos)}
             matriz = configurar_matriz(vivos=grupos_vivos)
             grupos = crear_guerreros(n=n_grupos)
