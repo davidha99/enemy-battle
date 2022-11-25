@@ -1,0 +1,223 @@
+      1     2     3
+1  0.00  0.25  0.75
+2  0.10  0.00  0.90
+3  0.05  0.95  0.00
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 8
+Group 3: 9
+==================================
+
+
+Group 2 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 8
+Group 3: 8
+==================================
+
+
+Group 2 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 8
+Group 3: 7
+==================================
+
+
+Group 3 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 7
+Group 3: 7
+==================================
+
+
+Group 2 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 7
+Group 3: 6
+==================================
+
+
+Group 3 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 6
+Group 3: 6
+==================================
+
+
+Group 1 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 6
+Group 3: 5
+==================================
+
+
+Group 2 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 6
+Group 3: 4
+==================================
+
+
+Group 1 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 6
+Group 3: 3
+==================================
+
+
+Group 2 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 6
+Group 3: 2
+==================================
+
+
+Group 3 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 5
+Group 3: 2
+==================================
+
+
+Group 1 attacked Group 3!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 5
+Group 3: 1
+==================================
+
+
+Group 1 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 4
+Group 3: 1
+==================================
+
+
+Group 1 attacked Group 3!
+
+Group 3 is annihilated!
+
+==================================
+
+Reconfiguring stochastic matrix
+
+     1    2
+1  0.0  1.0
+2  1.0  0.0
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 4
+==================================
+
+
+Group 1 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 10
+Group 2: 3
+==================================
+
+
+Group 2 attacked Group 1!
+
+
+Number of warriors for each group
+Group 1: 9
+Group 2: 3
+==================================
+
+
+Group 2 attacked Group 1!
+
+
+Number of warriors for each group
+Group 1: 8
+Group 2: 3
+==================================
+
+
+Group 1 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 8
+Group 2: 2
+==================================
+
+
+Group 1 attacked Group 2!
+
+
+Number of warriors for each group
+Group 1: 8
+Group 2: 1
+==================================
+
+
+Group 2 attacked Group 1!
+
+
+Number of warriors for each group
+Group 1: 7
+Group 2: 1
+==================================
+
+
+Group 2 attacked Group 1!
+
+
+Number of warriors for each group
+Group 1: 6
+Group 2: 1
+==================================
+
+
+Group 1 attacked Group 2!
+
+Group 2 is annihilated!
+
+==================================
+
+
+==================================
+Group 1 is the winner!
+==================================

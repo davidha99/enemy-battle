@@ -213,7 +213,7 @@ def crear_guerreros_manuales(n: int):
 if __name__ == "__main__":
 
     manual = False
-    archivo = "resultados/resultados.txt"
+    archivo = "resultados/resultados2.txt"
 
     if len(sys.argv) == 2:
         if sys.argv[1] == "-m":
